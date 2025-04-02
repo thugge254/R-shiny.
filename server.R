@@ -135,18 +135,6 @@ server = function(input,output) {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     output$premeum_cost_1<-renderInfoBox({
         age_1 = input$Age_1
         age_2=input$Age_2
@@ -173,10 +161,6 @@ server = function(input,output) {
         )
         
     })
-    
-    
- 
-    
     
     
     output$id1_1=renderPlotly({
