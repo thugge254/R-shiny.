@@ -1,4 +1,3 @@
-
 library(shiny)
 library(ggplot2)
 library(plotly)
@@ -84,8 +83,6 @@ shinyUI(
                     
                       infoBoxOutput("premeum_cost"),
                       
-                           
-                          
                         ),
                       fluidRow(
                           box(width = 6,title = "PREMIUM",status = "primary", solidHeader = T,
@@ -111,9 +108,7 @@ shinyUI(
                               ),
                               sliderInput(inputId="initial_expenses",label="Initila Expenses", value = 15,min=0,max=50)
                              # sliderInput(inputId="Claim_expenses",label="Claim Expenses", value = 15,min=0,max=50)
-                              
-                             
-                          
+                                
                       )
                       )
                     ),
@@ -154,8 +149,6 @@ shinyUI(
                             
                             infoBoxOutput("premeum_cost_1"),
                             
-                            
-                            
                         ),
                         fluidRow(
                             box(width = 6,title = "PREMIUM",status = "primary", solidHeader = T,
@@ -187,11 +180,7 @@ shinyUI(
                             )
                             
                         )
-                        
-                        
-                        
-                      
-                       
+                          
                         
                         )
             )
