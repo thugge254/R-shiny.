@@ -47,7 +47,7 @@ Product type (e.g., assurance, annuity)
 - Conditional panels dynamically show or hide variables depending on user selection, ensuring a clean and relevant interface.
 
 ### 📁 Folder Structure
-
+```
 insurance-pricing-app/
 │
 ├── ui.R
@@ -55,3 +55,4 @@ insurance-pricing-app/
 ├── www/ (assets for CSS or images)
 ├── data/
 └── README.md
+````
