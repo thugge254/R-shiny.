@@ -56,3 +56,6 @@ insurance-pricing-app/
 ├── data/
 └── README.md
 ````
+### License
+
+This project is open-source and is licensed under the MIT License.
